@@ -1,0 +1,25 @@
+{
+  "name": "shirts json",
+  "homepage": "https://github.com/JesseFriedner24",
+  "description": "",
+  "main": "index.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7"
+  },
+    "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css"
+      ]
+    }
+  }
+}
